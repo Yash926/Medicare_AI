@@ -87,7 +87,6 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const express = require("express");
 const bodyParser = require("body-parser");
 const fs = require("fs");
-const bcrypt = require('bcrypt');
 const app = express();
 const path = require("path");
 const PORT = process.env.PORT || 3000;
