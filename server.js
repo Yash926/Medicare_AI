@@ -114,7 +114,7 @@ const transporter = nodemailer.createTransport({
 // Send Email function
 function sendEmail(receiverName, receiverEmail, diagnosisHTML) {
     const mailOptions = {
-        from:'yt.yashtripathi0707@gmail.com' ,
+        from:'yourEmail@gmail.com' ,
         to: receiverEmail ,
         subject: 'Diagnosis-Report for ' + receiverName,
         html: diagnosisHTML
