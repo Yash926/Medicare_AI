@@ -106,8 +106,8 @@ const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const transporter = nodemailer.createTransport({
     service: 'gmail', // Example: 'gmail'
     auth: {
-        user: 'yt.yashtripathi0707@gmail.com',
-        pass: 'zdfs xhao ivzb mpnv '
+        user: 'yourEmail@gmail.com',
+        pass: 'Your app  password '
     }
 });
 
