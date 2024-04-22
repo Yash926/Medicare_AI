@@ -159,14 +159,14 @@ const transporter = nodemailer.createTransport({
     service: 'gmail', // Example: 'gmail'
     auth: {
         user: 'yt.yashtripathi0707@gmail.com',
-        pass: process.env.PSWD
+        pass: 'zdfs xhao ivzb mpnv '
     }
 });
 
 // Send Email function
 function sendEmail(receiverName, receiverEmail, diagnosisHTML) {
     const mailOptions = {
-        from:'yt.yashtripathi0707@gmail.com' ,
+        from:'yourEmail@gmail.com' ,
         to: receiverEmail ,
         subject: 'Diagnosis-Report for ' + receiverName,
         html: diagnosisHTML
